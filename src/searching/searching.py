@@ -19,7 +19,7 @@ def binary_search(arr, target):
 		mid = (low + high) // 2
 		# if mid point matches target
 		# return mid index
-		if arr[mid] == target:
+		if target == arr[mid]:
 			return mid
 		# if target < mid change high point
 		# to 1 below mid which has been checked
